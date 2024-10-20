@@ -64,7 +64,7 @@ static const char activity_names[][7] = {
 };
 
 // Currently enabled activities. This makes picking on first subface easier: why show activities you personally never do.
-static const uint8_t enabled_activities[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+static const uint8_t enabled_activities[] = {1, 0, 2, 9, 3};
 
 // Number of currently enabled activities (size of enabled_activities).
 static const uint8_t num_enabled_activities = sizeof(enabled_activities) / sizeof(uint8_t);
